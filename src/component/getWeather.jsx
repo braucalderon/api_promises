@@ -1,5 +1,7 @@
 import React from 'react';
 import axios from 'axios';
+import "./getWeather.css";
+
 
 class GetWeather extends React.Component{
     constructor(props) {
@@ -16,7 +18,7 @@ class GetWeather extends React.Component{
     render() {
 
         return(
-            <div> Checking </div>
+            <div className="getWeathersettings"> Checking </div>
         )
     }
 }
