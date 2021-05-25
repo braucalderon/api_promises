@@ -16,5 +16,4 @@ Axios is a library that helps us make http requests to external resources. In ou
 
 ### Difference between State and Props
 
-"props" (short for "properties") is an object of arbitrary inputs a React function component accepts as the first argument.
-"state" is data that changes over the lifetime of a specific instance of a React component.
+"props" (short for "properties") is an object of arbitrary inputs a React function component accepts as the first argument. "state" is data that changes over the lifetime of a specific instance of a React component.
