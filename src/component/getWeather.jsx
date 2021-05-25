@@ -18,7 +18,11 @@ class GetWeather extends React.Component{
     render() {
 
         return(
-            <div className="getWeathersettings"> Checking </div>
+            <div className="getWeathersettings"> 
+                <div>
+                    Weather Checking
+                </div> 
+            </div>
         )
     }
 }
