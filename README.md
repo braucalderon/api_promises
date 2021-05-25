@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# How to work with Api_Promises using axios and React router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Openweathermap API
 
-In the project directory, you can run:
+Openweathermap is our api [Openweather Website](https://openweathermap.org/api).
 
 ### `yarn start`
 
