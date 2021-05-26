@@ -39,8 +39,13 @@ class GetWeather extends React.Component{
                 <div>
                     Weather Checking
                 </div> 
+                <div>
+                <Link to= 'state'>State</Link>    
+                </div>
+                <div>
                 <Link to='stateWeather'>Weather</Link>
-
+                </div>
+                
             </div>
         )
     }
