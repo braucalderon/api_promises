@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import "./getWeather.css";
+import { Link } from 'react-router-dom';
 
 
 class GetWeather extends React.Component{
@@ -13,7 +14,7 @@ class GetWeather extends React.Component{
     }
 
     componentDidMount() {
-        const key = '';
+        const key = '8d1bc4cfcdb224fd1a0ad07a0f806b08';
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.state}&appid=${key}`;
         // fetch the api by using axios
         axios.get(url)
@@ -38,6 +39,7 @@ class GetWeather extends React.Component{
                 <div>
                     Weather Checking
                 </div> 
+                <Link to='stateWeather'>Weather</Link>
 
             </div>
         )
