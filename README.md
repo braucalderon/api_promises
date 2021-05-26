@@ -12,7 +12,18 @@ What we use to assign and know what tasks to do. [Trello](https://trello.com/b/Q
 
 ### Why we're using axios
 
-Axios is a library that helps us make http requests to external resources. In our React applications we often need to retrieve data from external APIs so it can be displayed in our web pages.
+Axios is a library that helps us make http requests to external resources. In our React applications we often need to retrieve data from external APIs so it can be displayed in our web page.
+
+##### Axios Features
+
+Make XMLHttpRequests from the browser.
+Make http requests from node.js.
+Supports the Promise API.
+Intercept request and response.
+Transform request and response data.
+Cancel requests.
+Automatic transforms for JSON data.
+Client side support for protecting against XSRF.
 
 ### Difference between State and Props
 
