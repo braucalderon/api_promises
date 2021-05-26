@@ -40,4 +40,4 @@ The Route component is perhaps the most important component in React Router to u
 
 ### Link Component (To: String)
 
-A link component provides declarative, accessible navigation around your application. (to: string) A string representation of the Link location, created by concatenating the location’s pathname, search, and hash properties.
+A link component provides declarative, accessible navigation around your application. (to: string) A string representation of the Link location, created by concatenating the location’s pathname, search, and hash properties.[For More Information On Route!](https://reactrouter.com/web/api/Link/to-string.
